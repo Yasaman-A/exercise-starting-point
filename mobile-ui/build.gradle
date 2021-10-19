@@ -20,13 +20,13 @@ allprojects {
     }
 }
 
-subprojects {
-    apply from:"checkstyle.gradle"
-    afterEvaluate{
-        preBuild.dependsOn('checkstyle')
-        check.dependsOn 'checkstyle'
-    }
-}
+//subprojects {
+//    apply from:"checkstyle.gradle"
+//    afterEvaluate{
+//        preBuild.dependsOn('checkstyle')
+//        check.dependsOn 'checkstyle'
+//    }
+//}
 
 task clean(type: Delete) {
     delete rootProject.buildDir
