@@ -21,5 +21,3 @@ public class MainActivity
     }
 
 }
-.DS_Store           build/              checkstyle/         libs/               src/
-        .gitignore          build.gradle        checkstyle.gradle   proguard-rules.pro  
