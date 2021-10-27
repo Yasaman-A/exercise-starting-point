@@ -33,4 +33,5 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: develop
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LINTER_RULES_PATH: ./github/linters
+          LINTER_RULES_PATH: /.github/linters
+          JAVA_FILE_NAME: sun-checks.xml
